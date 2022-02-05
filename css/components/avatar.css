@@ -1,0 +1,23 @@
+.avatar {
+  border-radius: 50%;
+}
+
+.avatar img {
+  object-fit: cover;
+}
+.avatar-lg img {
+  width: 10.5rem;
+  height: 10.5rem;
+}
+.avatar-md img {
+  width: 7.5rem;
+  height: 7.5rem;
+}
+.avatar-sm img {
+  width: 5rem;
+  height: 5rem;
+}
+.avatar-xs img {
+  width: 4rem;
+  height: 4rem;
+}
