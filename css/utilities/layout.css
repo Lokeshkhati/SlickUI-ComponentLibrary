@@ -1,0 +1,54 @@
+/* Layout styling form component container */
+
+.component-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: center;
+  padding: 1rem;
+  margin: 2rem 0;
+  border: 2px solid var(--border-color);
+  border-radius: 4px;
+  width: 90%;
+}
+
+/* Layout styling form code snippets */
+.code-snippet {
+  box-sizing: border-box;
+  width: 90%;
+  max-height: 300px;
+  padding: 1rem 0;
+  background-color: #fafafa;
+  margin: 2rem 0;
+  overflow: auto;
+}
+.code-snippet iframe {
+  width: 100%;
+  border: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    "header header header header header"
+    "sidebar main main main main"
+    "sidebar main main main main"
+    "sidebar main main main main"
+    "sidebar main main main main";
+}
+
+@media screen and (max-width: 64em) {
+  .main {
+    padding: 1.2rem 1.6rem;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "header"
+      "sidebar"
+      "main";
+    width: 100%;
+  }
+}
