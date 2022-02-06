@@ -1,0 +1,10 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+/** utilities  */
+@import url("../css/utilities/layout.css");
+
+
+/** components */
+@import url("../css/components/avatar.css");
+@import url("../css/components/alert.css");
