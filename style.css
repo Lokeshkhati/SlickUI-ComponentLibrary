@@ -15,14 +15,12 @@ html {
 body {
   color: #404353;
 }
-
 :root {
   --primary-color: #6366f1;
   --success-color: #28a745;
   --danger-color: #f44336;
   --warning-color: #ffcc00;
 }
-
 a {
   text-decoration: none;
 }
