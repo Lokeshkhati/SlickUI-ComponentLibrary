@@ -1,0 +1,23 @@
+.alert {
+  border-radius: 4px;
+  padding: 1rem;
+  font-size: 1rem;
+  margin: 1rem 0;
+  width: 80%;
+  color: var(--white-color);
+}
+.alert-icon {
+  margin-right: 1rem;
+}
+.alert-icon i {
+  font-size: 1.5rem;
+}
+.alert-success {
+  background-color: var(--success-color);
+}
+.alert-danger {
+  background-color: var(--danger-color);
+}
+.alert-warning {
+  background-color: var(--warning-color);
+}

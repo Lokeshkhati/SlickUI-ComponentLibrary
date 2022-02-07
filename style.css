@@ -14,7 +14,6 @@ html {
 body {
   color: #404353;
 }
-
 :root {
   --primary-color: #6366f1;
   --success-color: #28a745;
@@ -23,7 +22,6 @@ body {
   --border-color: #a8a8a8;
   --white-color: #ffffff;
 }
-
 a {
   text-decoration: none;
 }
