@@ -1,0 +1,10 @@
+.img-round {
+  height: 12rem;
+  width: 12rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
