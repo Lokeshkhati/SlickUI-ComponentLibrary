@@ -26,7 +26,14 @@
   width: 100%;
   border: none;
 }
-
+.main {
+  padding: 1rem 3rem;
+  grid-area: main;
+  width: 100%;
+  max-width: 100vw;
+  /* padding: 10rem; */
+  background-color: var(--white-color);
+}
 .grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -36,8 +43,11 @@
     "sidebar main main main main"
     "sidebar main main main main"
     "sidebar main main main main";
+  padding-top: 5rem;
 }
-
+.space {
+  padding: 10rem 5rem 0 5rem;
+}
 @media screen and (max-width: 64em) {
   .main {
     padding: 1.2rem 1.6rem;

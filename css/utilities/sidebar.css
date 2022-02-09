@@ -1,0 +1,29 @@
+.sidebar {
+  grid-area: sidebar;
+  height: 85vh;
+  overflow-y: scroll;
+  position: fixed;
+  z-index: 0;
+  left: 0;
+}
+.nav-title {
+  margin-top: 1rem;
+  padding-left: 4rem;
+
+}
+.nav-link {
+  margin: 1rem 0;
+}
+.nav-link a {
+  display: block;
+  color: inherit;
+  padding: 0.5rem 4rem;
+  letter-spacing: 1.2px;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.nav-link a:hover {
+  background-color: var(--hover-color);
+  border-radius: 2px;
+}

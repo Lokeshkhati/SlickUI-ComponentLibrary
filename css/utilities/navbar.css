@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  z-index: 1;
+  background-color: var(--primary-color);
+}
+
+.navbar h1 {
+  color: var(--white-color);
+}
+ul {
+  align-items: center;
+  display: flex;
+  margin-right: 5rem;
+  padding: 0 1rem;
+}
+
+ul a {
+  color: var(--white-color);
+  padding: 0 1rem;
+}
+.links {
+  display: block;
+}
+@media screen and (max-width: 1024px) {
+  .active .nav-bar-links {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+  }
+  .active .burger {
+    position: fixed;
+  }
+}
