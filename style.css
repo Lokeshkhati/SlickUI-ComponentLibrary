@@ -11,16 +11,19 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  color: #404353;
-}
 :root {
   --primary-color: #6366f1;
   --success-color: #28a745;
   --danger-color: #f44336;
   --warning-color: #ffcc00;
   --border-color: #a8a8a8;
-  --white-color: #ffffff;
+  --white-color: #f8fafc;
+  --dark-color: #1e293b;
+  --body-color: #404353;
+  --hover-color: #eeeeee;
+}
+body {
+  color: var(--body-color);
 }
 a {
   text-decoration: none;
@@ -29,13 +32,7 @@ a {
 li {
   list-style: none;
 }
-.main {
-  padding: 1rem 3rem;
-  grid-area: main;
-  width: 100%;
-  box-sizing: border-box;
-  max-width: 100vw;
-}
+
 .txt-ctr {
   text-align: center;
 }
