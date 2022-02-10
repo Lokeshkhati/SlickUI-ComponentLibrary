@@ -1,0 +1,94 @@
+.form-label {
+    display: inline-block;
+    padding-bottom: 0.625rem;
+  }
+  
+  .required-field:after {
+    content: "*";
+    color: var(--danger-color);
+  }
+  
+  .form-field {
+    width: 90%;
+    display: block;
+    padding: 8px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+  }
+  
+  .form-field:focus {
+    border: 2px solid var(--primary-color);
+  }
+  
+  .form-validation-msg {
+    margin-top: 0.25rem;
+    font-size: 0.875rem;
+    line-height: 21px;
+    /* display: none; */
+  }
+  .form-field-error {
+    color: var(--danger-color);
+  }
+  .form-validated :invalid ~ .form-field-error {
+    display: block;
+  }
+  
+  .form-checkbox-field {
+    width: 1rem;
+    height: 1rem;
+    outline: none;
+    display: inline-block;
+    border-radius: 0.3rem;
+    margin-right: 0.25rem;
+    position: relative;
+    top: 0.15rem;
+  }
+  .submit-form {
+    width: 90%;
+  }
+  form input {
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid var(--primary-color);
+    margin: 1rem;
+    width: 90%;
+  }
+  input:focus {
+    outline: none;
+  }
+  .signup-form-container {
+    width: 400px;
+  }
+  .signup-form-container form {
+    padding: 2rem;
+    width: 100%;
+    border-radius: 4px;
+  }
+  .signup {
+    width: 90%;
+    color: var(--white-color);
+    font-size: 1rem;
+  }
+  .textarea-form-container form {
+    width: 100%;
+    padding: 1.5rem;
+  }
+  .textarea-form-container input {
+    border: 1px solid var(--border-color);
+  }
+  .textarea-form-container #country,
+  #feedback {
+    width: 90%;
+    padding: 8px;
+    border-radius: 4px;
+    margin: 1rem;
+    outline: none;
+  }
+  #feedback {
+    height: 150px;
+    resize: none;
+  }
+  #feedback:focus {
+    border: 2px solid var(--primary-color);
+  }
