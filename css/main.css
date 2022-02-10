@@ -3,8 +3,16 @@
 
 /** utilities  */
 @import url("../css/utilities/layout.css");
-
+@import url("../css/utilities/navbar.css");
+@import url("../css/utilities/sidebar.css");
+@import url("../css/utilities/footer.css");
 
 /** components */
 @import url("../css/components/avatar.css");
 @import url("../css/components/alert.css");
+@import url("../css/components/badge.css");
+@import url("../css/components/button.css");
+@import url("../css/components/image.css");
+@import url("../css/components/card.css");
+@import url("../css/components/input.css");
+@import url("../css/components/grid.css");
