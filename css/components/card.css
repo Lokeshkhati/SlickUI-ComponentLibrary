@@ -139,7 +139,7 @@
   background-color: #f1f5f9;
 }
 
-#close-icon {
+.close-icon {
   font-size: 1.2rem;
   position: absolute;
   top: 0;
@@ -148,7 +148,7 @@
   cursor: pointer;
   padding: 4px;
 }
-#close-icon:hover {
+.close-icon:hover {
   background-color: var(--hover-color);
   border-radius: 50%;
 }
