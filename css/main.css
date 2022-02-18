@@ -6,6 +6,7 @@
 @import url("../css/utilities/navbar.css");
 @import url("../css/utilities/sidebar.css");
 @import url("../css/utilities/footer.css");
+@import url("../css/utilities/flex.css");
 
 /** components */
 @import url("../css/components/avatar.css");
