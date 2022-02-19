@@ -28,11 +28,6 @@ body {
 a {
   text-decoration: none;
 }
-
-li {
+.list-none{
   list-style: none;
-}
-
-.txt-ctr {
-  text-align: center;
 }

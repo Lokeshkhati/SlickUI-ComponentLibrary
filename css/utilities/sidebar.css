@@ -3,8 +3,8 @@
   height: 85vh;
   overflow-y: scroll;
   position: fixed;
-  z-index: 0;
   left: 0;
+  width: 20rem;
 }
 .nav-title {
   margin-top: 1rem;

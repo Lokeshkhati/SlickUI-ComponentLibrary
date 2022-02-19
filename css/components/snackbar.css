@@ -1,0 +1,32 @@
+.snackbar {
+  background: var(--primary-color);
+  color: var(--white-color);
+  font-size: 1rem;
+  width: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  padding: 0.5rem 1rem;
+}
+.btn-group {
+  margin-left: auto;
+}
+.btn-group button {
+  border: none;
+  cursor: pointer;
+}
+.btn-cross {
+  color: var(--dark-color);
+  font-size: 0.9rem;
+  height: 1.9rem;
+  width: 1.9rem;
+  border-radius: 50%;
+}
+
+.btn-retry {
+  background-color: transparent;
+  color: var(--dark-color);
+  font-size: 0.9rem;
+  font-weight: 600;
+}

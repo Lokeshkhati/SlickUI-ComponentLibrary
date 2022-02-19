@@ -6,6 +6,7 @@
 @import url("../css/utilities/navbar.css");
 @import url("../css/utilities/sidebar.css");
 @import url("../css/utilities/footer.css");
+@import url("../css/utilities/flex.css");
 
 /** components */
 @import url("../css/components/avatar.css");
@@ -17,3 +18,6 @@
 @import url("../css/components/input.css");
 @import url("../css/components/grid.css");
 @import url("../css/components/navigation.css");
+@import url("../css/components/snackbar.css");
+@import url("../css/components/rating.css");
+@import url("../css/components/typography.css");
