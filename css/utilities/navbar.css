@@ -36,7 +36,4 @@ ul a {
     left: 0;
     bottom: 0;
   }
-  .active .burger {
-    position: fixed;
-  }
 }
