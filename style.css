@@ -18,10 +18,12 @@ html {
   --warning-color: #ffcc00;
   --border-color: #a8a8a8;
   --white-color: #f8fafc;
+  --code-color: #fafafa;
   --dark-color: #1e293b;
   --body-color: #404353;
   --hover-color: #eeeeee;
   --light-dark: #1d2547;
+  --gray-color: #757575;
 }
 body {
   color: var(--body-color);
@@ -29,7 +31,29 @@ body {
 a {
   text-decoration: none;
 }
-
-li {
+.space{
+  padding: 10rem 5rem;
+}
+.list-none {
   list-style: none;
+}
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.border-none {
+  border: none;
+}
+
+.crsr-ptr {
+  cursor: pointer;
+}
+
+.list-none{
+  list-style: none;
+}
+
+.text-clr {
+  color:var(--primary-color)
 }

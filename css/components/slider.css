@@ -1,0 +1,11 @@
+input[type="range"] {
+  width: 15rem;
+}
+
+.slider {
+  margin: 1rem;
+}
+
+.slider-icon {
+  font-size: 2rem;
+}

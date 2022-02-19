@@ -6,6 +6,9 @@
 @import url("../css/utilities/navbar.css");
 @import url("../css/utilities/sidebar.css");
 @import url("../css/utilities/footer.css");
+@import url("../css/utilities/flex.css");
+@import url("../css/utilities/padding.css");
+@import url("../css/utilities/margin.css");
 
 /** components */
 @import url("../css/components/avatar.css");
@@ -17,8 +20,8 @@
 @import url("../css/components/input.css");
 @import url("../css/components/grid.css");
 @import url("../css/components/navigation.css");
-@import url("../css/components/modal.css");
 @import url("../css/components/snackbar.css");
 @import url("../css/components/rating.css");
-@import url("../css/components/modal.css");
 @import url("../css/components/typography.css");
+@import url("../css/components/list.css");
+@import url("../css/components/slider.css");

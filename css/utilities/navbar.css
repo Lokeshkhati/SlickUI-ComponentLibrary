@@ -14,6 +14,7 @@
 
 .navbar h1 {
   color: var(--white-color);
+  font-size: 2rem;
 }
 ul {
   align-items: center;
@@ -24,7 +25,8 @@ ul {
 
 ul a {
   color: var(--white-color);
-  padding: 0 1rem;
+  padding: 0 .5rem;
+  font-size: 1.2rem;
 }
 .links {
   display: block;
@@ -35,8 +37,5 @@ ul a {
     top: 0;
     left: 0;
     bottom: 0;
-  }
-  .active .burger {
-    position: fixed;
   }
 }
