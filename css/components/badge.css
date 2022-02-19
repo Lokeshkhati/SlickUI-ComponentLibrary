@@ -6,12 +6,8 @@
   min-width: 1.5rem;
   padding: 5px;
   border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border: 1px solid var(--white-color);
   color: var(--white-color);
-
   position: absolute;
   font-size: 0.8rem;
 }
