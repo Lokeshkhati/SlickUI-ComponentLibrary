@@ -1,0 +1,27 @@
+.text-center {
+    text-align: center;
+  }
+  .text-gray {
+    color: var(--gray-color);
+  }
+  .line-through {
+    text-decoration: line-through;
+  }
+  .font-xsm{
+    font-size: 1rem;
+  }
+  .font-sm{
+    font-size: 1.5rem;
+  }
+  .fonts-md{
+    font-size: 2rem;
+  }
+  .font-lg{
+    font-size: 3rem;
+  }
+  .font-bold {
+    font-weight: bold;
+  }
+  .text-bgc{
+    background-color: var(--success-color);
+  }
