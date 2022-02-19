@@ -30,7 +30,9 @@ body {
 a {
   text-decoration: none;
 }
-
+.space{
+  padding: 10rem 5rem;
+}
 .list-none {
   list-style: none;
 }
