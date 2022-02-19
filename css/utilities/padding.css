@@ -2,6 +2,16 @@
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
+.padding-xsm-x {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.padding-xsm-r {
+  padding-right: 0.5rem;
+}
+.padding-xsm-l {
+  padding-left: 0.5rem;
+}
 .padding-sm {
   padding: 1rem;
 }
