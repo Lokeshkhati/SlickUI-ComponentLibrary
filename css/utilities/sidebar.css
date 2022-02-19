@@ -9,7 +9,9 @@
 .nav-title {
   margin-top: 1rem;
   padding-left: 4rem;
-
+}
+.nav-title i {
+  display: none;
 }
 .nav-link {
   margin: 1rem 0;
@@ -26,4 +28,34 @@
 .nav-link a:hover {
   background-color: var(--hover-color);
   border-radius: 2px;
+}
+
+@media screen and (max-width: 64em) {
+  .sidebar {
+    overflow-y:scroll;
+    background-color: var(--white-color);
+    z-index: 1;
+    height: 100vh;
+    top: 2.5rem;
+    width: 100%;
+    position: fixed;
+  }
+  .nav-title {
+    display: flex;
+    align-items: center;
+    background-color: var(--hover-color);
+    padding: 1.2rem ;
+    position:fixed;
+    width: 100%;
+  }
+  .nav-title i {
+    display: block;
+    font-size: 1.6rem;
+    cursor: pointer;
+  }
+  .nav-link a {
+   
+    padding: 0.5rem 1rem;
+    
+  }
 }
