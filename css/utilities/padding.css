@@ -1,0 +1,55 @@
+.padding-xsm-y {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.padding-sm {
+  padding: 1rem;
+}
+.padding-sm-y {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.padding-sm-x {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.padding-sm-l {
+  padding-left: 1rem;
+}
+.padding-sm-r {
+  padding-right: 1rem;
+}
+.padding-sm-b {
+  padding-bottom: 1rem;
+}
+.padding-sm-t {
+  padding-top: 1rem;
+}
+
+/*  */
+
+.padding-md {
+  padding: 2rem;
+}
+.padding-md-y {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.padding-md-x {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.padding-md-l {
+  padding-left: 2rem;
+}
+.padding-md-r {
+  padding-right: 2rem;
+}
+.padding-md-b {
+  padding-bottom: 2rem;
+}
+.padding-md-t {
+  padding-top: 2rem;
+}
