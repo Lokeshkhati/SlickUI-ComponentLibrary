@@ -18,6 +18,7 @@ html {
   --warning-color: #ffcc00;
   --border-color: #a8a8a8;
   --white-color: #f8fafc;
+  --code-color: #fafafa;
   --dark-color: #1e293b;
   --body-color: #404353;
   --hover-color: #eeeeee;
@@ -29,7 +30,7 @@ a {
   text-decoration: none;
 }
 
-li {
+.list-none{
   list-style: none;
 }
 
