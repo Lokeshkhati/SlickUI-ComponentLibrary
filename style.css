@@ -49,8 +49,10 @@ a {
   cursor: pointer;
 }
 
-
-
 .list-none{
   list-style: none;
+}
+
+.text-clr {
+  color:var(--primary-color)
 }
