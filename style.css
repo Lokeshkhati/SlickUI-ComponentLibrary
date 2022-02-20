@@ -53,7 +53,7 @@ a {
 .list-none{
   list-style: none;
 }
-
-.text-clr {
-  color:var(--primary-color)
+.text-center {
+  text-align: center;
 }
+
