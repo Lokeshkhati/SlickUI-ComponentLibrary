@@ -3,14 +3,14 @@
 A lightweight, easy to use and fully customizable CSS component library
 
 ## Preview
-![readme file](https://user-images.githubusercontent.com/59862355/)
+![image](https://user-images.githubusercontent.com/62974339/154853964-aba158fe-f198-4cf2-bda5-95a143c003e1.png)
+
 
 ## Features
 
 - Customizable
 - Faster
 - Reusable
-- Customizable
 - Lightweight
 
 ### Components 
@@ -38,8 +38,7 @@ To use this component library in your project -
 Just add following lines of code in a `<head/>` tag of your html file.
 
 ```bash 
-
-<link rel="stylesheet" href="https://slickui-component-library.netlify.app/">
+<link rel="stylesheet" href="https://slickui-component-library.netlify.app/style.css">
 
 
 ```
@@ -51,7 +50,7 @@ Just add following lines of code in a `<head/>` tag of your html file.
 
 ### Feedback
 
-If you have any feedback/suggestions, please reach out to me at lokeshkhati005@gmail.com
+If you have any feedback, please reach out to me at lokeshkhati005@gmail.com
 
 ## 🔗 Let's connect here :
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://lokesh-khati.netlify.app/)
