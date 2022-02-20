@@ -53,7 +53,13 @@ a {
 .list-none {
   list-style: none;
 }
+.text-center {
+  text-align: center;
+}
 
+<<<<<<< HEAD
 .clr-primary {
   color: var(--primary-color);
 }
+=======
+>>>>>>> 9f1be36bbb6b71a539c6f9466d416a4b09e28fbd
