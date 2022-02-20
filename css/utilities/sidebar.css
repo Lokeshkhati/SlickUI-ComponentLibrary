@@ -5,7 +5,7 @@
   position: fixed;
   left: 0;
   width: 20rem;
-  display: none;
+  /* display: none; */
 }
 .nav-title {
   margin-top: 1rem;
