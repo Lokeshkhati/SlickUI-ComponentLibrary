@@ -1,0 +1,36 @@
+.star-rating {
+  border: solid 1px var(--border-color);
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 1.5em;
+  justify-content: space-around;
+  padding: 0 0.2em;
+  text-align: center;
+  width: 5em;
+}
+
+.star-rating input {
+  display: none;
+}
+
+.star-rating label {
+  color: var(--body-color);
+  cursor: pointer;
+}
+
+.star-rating :checked ~ label {
+  color: var(--warning-color);
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: var(--warning-color);
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  background-color: var(--light-dark);
+  padding: 0.2em 1rem;
+  color: var(--white-color);
+}
