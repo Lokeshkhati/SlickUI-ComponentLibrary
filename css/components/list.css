@@ -1,0 +1,11 @@
+.list-square {
+  list-style: square;
+}
+
+.list-circle {
+  list-style: circle;
+}
+.list-sm-alpha {
+  list-style: lower-latin;
+}
+
