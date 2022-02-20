@@ -5,6 +5,7 @@
   position: fixed;
   left: 0;
   width: 20rem;
+  display: none;
 }
 .nav-title {
   margin-top: 1rem;
@@ -37,7 +38,7 @@
     z-index: 1;
     height: 100vh;
     top: 2.5rem;
-    width: 100%;
+    /* width: 100%; */
     position: fixed;
   }
   .nav-title {

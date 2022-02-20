@@ -3,7 +3,7 @@
 A lightweight, easy to use and fully customizable CSS component library
 
 ## Preview
-![readme file](https://user-images.githubusercontent.com/)
+![readme file](https://user-images.githubusercontent.com/59862355/)
 
 ## Features
 
@@ -33,7 +33,7 @@ A lightweight, easy to use and fully customizable CSS component library
 
 ## Installation
 
-To use this component library or specific component in your project -
+To use this component library in your project -
 
 Just add following lines of code in a `<head/>` tag of your html file.
 

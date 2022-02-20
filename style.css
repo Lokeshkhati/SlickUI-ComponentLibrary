@@ -31,7 +31,7 @@ body {
 a {
   text-decoration: none;
 }
-.space{
+.space {
   padding: 10rem 5rem;
 }
 .list-none {
@@ -50,10 +50,10 @@ a {
   cursor: pointer;
 }
 
-.list-none{
+.list-none {
   list-style: none;
 }
 
-.text-clr {
-  color:var(--primary-color)
+.clr-primary {
+  color: var(--primary-color);
 }

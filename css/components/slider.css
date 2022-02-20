@@ -1,5 +1,5 @@
 input[type="range"] {
-  width: 15rem;
+  max-width: 100%;
 }
 
 .slider {
