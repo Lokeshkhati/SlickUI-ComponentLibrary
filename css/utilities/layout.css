@@ -14,12 +14,10 @@
 
 /* Layout styling form code snippets */
 .code-snippet {
-  box-sizing: border-box;
   width: 90%;
   max-height: 300px;
-  padding: 1rem 0;
-  background-color: var(--code-color);
-  margin: 2rem 0;
+  /* padding: 1rem 0; */
+  /* margin: 2rem 0; */
   overflow: auto;
 }
 .code-snippet iframe {
