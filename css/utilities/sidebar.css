@@ -33,21 +33,21 @@
 
 @media screen and (max-width: 64em) {
   .sidebar {
-    overflow-y:scroll;
-    background-color: var(--white-color);
+    overflow-y: scroll;
     z-index: 1;
     height: 100vh;
     top: 2.5rem;
-    /* width: 100%; */
+    width: 100%;
     position: fixed;
   }
   .nav-title {
     display: flex;
     align-items: center;
     background-color: var(--hover-color);
-    padding: 1.2rem ;
-    position:fixed;
+    padding: 1rem;
+    position: fixed;
     width: 100%;
+    height: 4rem;
   }
   .nav-title i {
     display: block;
@@ -55,8 +55,25 @@
     cursor: pointer;
   }
   .nav-link a {
-   
     padding: 0.5rem 1rem;
-    
+  }
+  .sidebar-arrow i {
+    transition: 0.2s ease;
+  }
+  .sidebar-active .sidebar-arrow i {
+    transform: rotate(180deg);
+  }
+
+  .nav-links {
+    display: none;
+  }
+  .sidebar-active .nav-links {
+    display: block;
+    position: absolute;
+    top: 5rem;
+    overflow-y: auto;
+    width: 100%;
+    background-color: var(--hover-color);
+    z-index:1;
   }
 }
