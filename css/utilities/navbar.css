@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  width: 100%;
+  width: 100vw;
   position: fixed;
   left: 0;
   top: 0;
@@ -25,7 +25,7 @@ ul {
 
 ul a {
   color: var(--white-color);
-  padding: 0 .5rem;
+  padding: 0 0.5rem;
   font-size: 1.2rem;
 }
 .links {
@@ -38,4 +38,5 @@ ul a {
     left: 0;
     bottom: 0;
   }
+ 
 }

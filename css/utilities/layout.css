@@ -16,13 +16,12 @@
 .code-snippet {
   width: 90%;
   max-height: 300px;
-  /* padding: 1rem 0; */
-  /* margin: 2rem 0; */
   overflow: auto;
 }
 .code-snippet iframe {
   width: 100%;
    border: none;   
+   overflow: hidden;
 }
 .main {
   padding: 1rem 3rem;
